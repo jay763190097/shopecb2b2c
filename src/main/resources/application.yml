@@ -34,9 +34,9 @@ spring:
     elasticsearch:
       cluster-name: elasticsearch
       #cluster-nodes: 172.18.26.18:9300
-      cluster-nodes: 127.0.0.1:9300
+      cluster-nodes: 192.168.0.8:9300
       repositories:
-        enable: true
+        enable: false
 # 404 交给异常处理器处理
   mvc:
     throw-exception-if-no-handler-found: true
